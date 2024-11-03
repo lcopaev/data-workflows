@@ -1,7 +1,7 @@
 import json
 
 # Load the JSON file from the defined path
-with open('/Users/lolacopaev/Desktop/data_proj/response_sample.json', 'r') as file:
+with open('/Users/lolacopaev/Desktop/data_proj/spotify_data.json', 'r') as file:
     data = json.load(file)
 
 # Iterate through the items and print track and its details
